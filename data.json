@@ -5161,6 +5161,7 @@
     "SR":  [
                {
                    "No":  1,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -5185,6 +5186,7 @@
                },
                {
                    "No":  2,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -5209,6 +5211,7 @@
                },
                {
                    "No":  3,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "대전",
                    "Title":  "팀장",
@@ -5233,6 +5236,7 @@
                },
                {
                    "No":  4,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -5257,6 +5261,7 @@
                },
                {
                    "No":  5,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "대구",
                    "Title":  "부장",
@@ -5281,6 +5286,7 @@
                },
                {
                    "No":  6,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "팀장",
@@ -5305,6 +5311,7 @@
                },
                {
                    "No":  7,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "창원",
                    "Title":  "차장",
@@ -5329,6 +5336,7 @@
                },
                {
                    "No":  8,
+                   "Job":  "SR",
                    "VAR":  "UBER",
                    "Office":  "대구",
                    "Title":  "대리",
@@ -5353,6 +5361,7 @@
                },
                {
                    "No":  9,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -5377,6 +5386,7 @@
                },
                {
                    "No":  10,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "전무",
@@ -5401,6 +5411,7 @@
                },
                {
                    "No":  11,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -5425,6 +5436,7 @@
                },
                {
                    "No":  12,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "차장",
@@ -5449,6 +5461,7 @@
                },
                {
                    "No":  13,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -5473,6 +5486,7 @@
                },
                {
                    "No":  14,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "지사장",
@@ -5497,6 +5511,7 @@
                },
                {
                    "No":  15,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "차장",
@@ -5521,6 +5536,7 @@
                },
                {
                    "No":  16,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -5545,6 +5561,7 @@
                },
                {
                    "No":  17,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "주임",
@@ -5569,6 +5586,7 @@
                },
                {
                    "No":  18,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -5593,6 +5611,7 @@
                },
                {
                    "No":  19,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "과장",
@@ -5617,6 +5636,7 @@
                },
                {
                    "No":  20,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -5641,6 +5661,7 @@
                },
                {
                    "No":  21,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "과장",
@@ -5665,6 +5686,7 @@
                },
                {
                    "No":  22,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "본부장",
@@ -5689,6 +5711,7 @@
                },
                {
                    "No":  23,
+                   "Job":  "SR",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "지사장",
@@ -5713,6 +5736,7 @@
                },
                {
                    "No":  24,
+                   "Job":  "SR",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -5737,6 +5761,7 @@
                },
                {
                    "No":  25,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -5761,6 +5786,7 @@
                },
                {
                    "No":  26,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -5785,6 +5811,7 @@
                },
                {
                    "No":  27,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "광주",
                    "Title":  "차장",
@@ -5809,6 +5836,7 @@
                },
                {
                    "No":  28,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -5833,6 +5861,7 @@
                },
                {
                    "No":  29,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "창원",
                    "Title":  "부장",
@@ -5857,6 +5886,7 @@
                },
                {
                    "No":  30,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "전무",
@@ -5881,6 +5911,7 @@
                },
                {
                    "No":  31,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -5905,6 +5936,7 @@
                },
                {
                    "No":  32,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -5929,6 +5961,7 @@
                },
                {
                    "No":  33,
+                   "Job":  "SR",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -5953,6 +5986,7 @@
                },
                {
                    "No":  34,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -5977,6 +6011,7 @@
                },
                {
                    "No":  35,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "상무",
@@ -6001,6 +6036,7 @@
                },
                {
                    "No":  36,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -6025,6 +6061,7 @@
                },
                {
                    "No":  37,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "부산",
                    "Title":  "이사",
@@ -6049,6 +6086,7 @@
                },
                {
                    "No":  38,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -6073,6 +6111,7 @@
                },
                {
                    "No":  39,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -6097,6 +6136,7 @@
                },
                {
                    "No":  40,
+                   "Job":  "SR",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -6121,6 +6161,7 @@
                },
                {
                    "No":  41,
+                   "Job":  "SR",
                    "VAR":  "KINNO",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -6145,6 +6186,7 @@
                },
                {
                    "No":  42,
+                   "Job":  "SR",
                    "VAR":  "KINNO",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -6169,6 +6211,7 @@
                },
                {
                    "No":  43,
+                   "Job":  "SR",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "이사",
@@ -6193,6 +6236,7 @@
                },
                {
                    "No":  44,
+                   "Job":  "SR",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -6217,6 +6261,7 @@
                },
                {
                    "No":  45,
+                   "Job":  "SR",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -6241,6 +6286,7 @@
                },
                {
                    "No":  46,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "이사",
@@ -6265,6 +6311,7 @@
                },
                {
                    "No":  47,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -6289,6 +6336,7 @@
                },
                {
                    "No":  48,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -6311,6 +6359,7 @@
                },
                {
                    "No":  49,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -6335,6 +6384,7 @@
                },
                {
                    "No":  50,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -6359,6 +6409,7 @@
                },
                {
                    "No":  51,
+                   "Job":  "SR",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -6383,6 +6434,7 @@
                },
                {
                    "No":  52,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -6407,6 +6459,7 @@
                },
                {
                    "No":  53,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -6431,6 +6484,7 @@
                },
                {
                    "No":  54,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -6455,6 +6509,7 @@
                },
                {
                    "No":  55,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -6479,6 +6534,7 @@
                },
                {
                    "No":  56,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "퇴사자",
@@ -6503,6 +6559,7 @@
                },
                {
                    "No":  57,
+                   "Job":  "SR",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -6527,6 +6584,7 @@
                },
                {
                    "No":  58,
+                   "Job":  "SR",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -6551,6 +6609,7 @@
                },
                {
                    "No":  59,
+                   "Job":  "SR",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -6575,6 +6634,7 @@
                },
                {
                    "No":  60,
+                   "Job":  "SR",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -6599,6 +6659,7 @@
                },
                {
                    "No":  61,
+                   "Job":  "SR",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -6623,6 +6684,7 @@
                },
                {
                    "No":  62,
+                   "Job":  "SR",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -6647,6 +6709,7 @@
                },
                {
                    "No":  63,
+                   "Job":  "SR",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -6671,6 +6734,7 @@
                },
                {
                    "No":  64,
+                   "Job":  "SR",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -6695,6 +6759,7 @@
                },
                {
                    "No":  65,
+                   "Job":  "SR",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -6719,6 +6784,7 @@
                },
                {
                    "No":  66,
+                   "Job":  "SR",
                    "VAR":  "HANA",
                    "Office":  "부산",
                    "Title":  "이사",
@@ -6743,6 +6809,7 @@
                },
                {
                    "No":  67,
+                   "Job":  "SR",
                    "VAR":  "HANA",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -6767,6 +6834,7 @@
                },
                {
                    "No":  68,
+                   "Job":  "SR",
                    "VAR":  "HANA",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -6789,6 +6857,7 @@
                },
                {
                    "No":  69,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "대전",
                    "Title":  "상무",
@@ -6813,6 +6882,7 @@
                },
                {
                    "No":  70,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "대전",
                    "Title":  "차장",
@@ -6835,6 +6905,7 @@
                },
                {
                    "No":  71,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -6857,6 +6928,7 @@
                },
                {
                    "No":  72,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -6879,6 +6951,7 @@
                },
                {
                    "No":  73,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -6901,6 +6974,7 @@
                },
                {
                    "No":  74,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -6923,6 +6997,7 @@
                },
                {
                    "No":  75,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -6945,6 +7020,7 @@
                },
                {
                    "No":  76,
+                   "Job":  "SR",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -6969,6 +7045,7 @@
     "AE":  [
                {
                    "No":  1,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -6995,6 +7072,7 @@
                },
                {
                    "No":  2,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -7021,6 +7099,7 @@
                },
                {
                    "No":  3,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -7047,6 +7126,7 @@
                },
                {
                    "No":  4,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "대구",
                    "Title":  "대리",
@@ -7073,6 +7153,7 @@
                },
                {
                    "No":  5,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "창원",
                    "Title":  "과장",
@@ -7099,6 +7180,7 @@
                },
                {
                    "No":  6,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -7125,6 +7207,7 @@
                },
                {
                    "No":  7,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -7151,6 +7234,7 @@
                },
                {
                    "No":  8,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "대전",
                    "Title":  "사원",
@@ -7177,6 +7261,7 @@
                },
                {
                    "No":  9,
+                   "Job":  "AE",
                    "VAR":  "UBER",
                    "Office":  "대구",
                    "Title":  "사원",
@@ -7203,6 +7288,7 @@
                },
                {
                    "No":  10,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "차장",
@@ -7229,6 +7315,7 @@
                },
                {
                    "No":  11,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -7255,6 +7342,7 @@
                },
                {
                    "No":  12,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "창원",
                    "Title":  "과장",
@@ -7281,6 +7369,7 @@
                },
                {
                    "No":  13,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "과장",
@@ -7307,6 +7396,7 @@
                },
                {
                    "No":  14,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "대전",
                    "Title":  "대리",
@@ -7333,6 +7423,7 @@
                },
                {
                    "No":  15,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -7359,6 +7450,7 @@
                },
                {
                    "No":  16,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "주임",
@@ -7385,6 +7477,7 @@
                },
                {
                    "No":  17,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "주임",
@@ -7411,6 +7504,7 @@
                },
                {
                    "No":  18,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "주임",
@@ -7437,6 +7531,7 @@
                },
                {
                    "No":  19,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "창원",
                    "Title":  "대리",
@@ -7463,6 +7558,7 @@
                },
                {
                    "No":  20,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -7489,6 +7585,7 @@
                },
                {
                    "No":  21,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -7515,6 +7612,7 @@
                },
                {
                    "No":  22,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "부산",
                    "Title":  "사원",
@@ -7541,6 +7639,7 @@
                },
                {
                    "No":  23,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -7567,6 +7666,7 @@
                },
                {
                    "No":  24,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -7593,6 +7693,7 @@
                },
                {
                    "No":  25,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -7619,6 +7720,7 @@
                },
                {
                    "No":  26,
+                   "Job":  "AE",
                    "VAR":  "NODE",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -7645,6 +7747,7 @@
                },
                {
                    "No":  27,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "대표",
@@ -7671,6 +7774,7 @@
                },
                {
                    "No":  28,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -7697,6 +7801,7 @@
                },
                {
                    "No":  29,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -7723,6 +7828,7 @@
                },
                {
                    "No":  30,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "사원",
@@ -7749,6 +7855,7 @@
                },
                {
                    "No":  31,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "사원",
@@ -7775,6 +7882,7 @@
                },
                {
                    "No":  32,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -7801,6 +7909,7 @@
                },
                {
                    "No":  33,
+                   "Job":  "AE",
                    "VAR":  "MAKE",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -7827,6 +7936,7 @@
                },
                {
                    "No":  34,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -7853,6 +7963,7 @@
                },
                {
                    "No":  35,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "상무",
@@ -7879,6 +7990,7 @@
                },
                {
                    "No":  36,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -7905,6 +8017,7 @@
                },
                {
                    "No":  37,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -7931,6 +8044,7 @@
                },
                {
                    "No":  38,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -7957,6 +8071,7 @@
                },
                {
                    "No":  39,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -7983,6 +8098,7 @@
                },
                {
                    "No":  40,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8009,6 +8125,7 @@
                },
                {
                    "No":  41,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -8035,6 +8152,7 @@
                },
                {
                    "No":  42,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "사원",
@@ -8061,6 +8179,7 @@
                },
                {
                    "No":  43,
+                   "Job":  "AE",
                    "VAR":  "SOLKO",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8087,6 +8206,7 @@
                },
                {
                    "No":  44,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -8113,6 +8233,7 @@
                },
                {
                    "No":  45,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -8139,6 +8260,7 @@
                },
                {
                    "No":  46,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -8165,6 +8287,7 @@
                },
                {
                    "No":  47,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -8191,6 +8314,7 @@
                },
                {
                    "No":  48,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -8217,6 +8341,7 @@
                },
                {
                    "No":  49,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "주임",
@@ -8243,6 +8368,7 @@
                },
                {
                    "No":  50,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -8269,6 +8395,7 @@
                },
                {
                    "No":  51,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "부산",
                    "Title":  "부장",
@@ -8295,6 +8422,7 @@
                },
                {
                    "No":  52,
+                   "Job":  "AE",
                    "VAR":  "HYSOL",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -8321,6 +8449,7 @@
                },
                {
                    "No":  53,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "팀장",
@@ -8347,6 +8476,7 @@
                },
                {
                    "No":  54,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -8373,6 +8503,7 @@
                },
                {
                    "No":  55,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -8399,6 +8530,7 @@
                },
                {
                    "No":  56,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -8425,6 +8557,7 @@
                },
                {
                    "No":  57,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8451,6 +8584,7 @@
                },
                {
                    "No":  58,
+                   "Job":  "AE",
                    "VAR":  "PRISM",
                    "Office":  "경기",
                    "Title":  "주임",
@@ -8477,6 +8611,7 @@
                },
                {
                    "No":  59,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8503,6 +8638,7 @@
                },
                {
                    "No":  60,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -8529,6 +8665,7 @@
                },
                {
                    "No":  61,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8555,6 +8692,7 @@
                },
                {
                    "No":  62,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -8581,6 +8719,7 @@
                },
                {
                    "No":  63,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "차장",
@@ -8607,6 +8746,7 @@
                },
                {
                    "No":  64,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "대리",
@@ -8633,6 +8773,7 @@
                },
                {
                    "No":  65,
+                   "Job":  "AE",
                    "VAR":  "KNSOL",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -8659,6 +8800,7 @@
                },
                {
                    "No":  66,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -8685,6 +8827,7 @@
                },
                {
                    "No":  67,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -8711,6 +8854,7 @@
                },
                {
                    "No":  68,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "차장",
@@ -8737,6 +8881,7 @@
                },
                {
                    "No":  69,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "주임",
@@ -8763,6 +8908,7 @@
                },
                {
                    "No":  70,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -8789,6 +8935,7 @@
                },
                {
                    "No":  71,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "이사",
@@ -8815,6 +8962,7 @@
                },
                {
                    "No":  72,
+                   "Job":  "AE",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "파트너",
@@ -8841,6 +8989,7 @@
                },
                {
                    "No":  73,
+                   "Job":  "AE",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -8867,6 +9016,7 @@
                },
                {
                    "No":  74,
+                   "Job":  "AE",
                    "VAR":  "SYSTEMS",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -8893,6 +9043,7 @@
                },
                {
                    "No":  75,
+                   "Job":  "AE",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -8919,6 +9070,7 @@
                },
                {
                    "No":  76,
+                   "Job":  "AE",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "사원",
@@ -8945,6 +9097,7 @@
                },
                {
                    "No":  77,
+                   "Job":  "AE",
                    "VAR":  "TEK",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -8971,6 +9124,7 @@
                },
                {
                    "No":  78,
+                   "Job":  "AE",
                    "VAR":  "HANA",
                    "Office":  "서울",
                    "Title":  "과장",
@@ -8997,6 +9151,7 @@
                },
                {
                    "No":  79,
+                   "Job":  "AE",
                    "VAR":  "HANA",
                    "Office":  "서울",
                    "Title":  "대리",
@@ -9023,6 +9178,7 @@
                },
                {
                    "No":  80,
+                   "Job":  "AE",
                    "VAR":  "HANA",
                    "Office":  "부산",
                    "Title":  "차장",
@@ -9049,6 +9205,7 @@
                },
                {
                    "No":  81,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "부산",
                    "Title":  "부장",
@@ -9075,6 +9232,7 @@
                },
                {
                    "No":  82,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "대전",
                    "Title":  "과장",
@@ -9101,6 +9259,7 @@
                },
                {
                    "No":  83,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -9127,6 +9286,7 @@
                },
                {
                    "No":  84,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "대전",
                    "Title":  "대리",
@@ -9153,6 +9313,7 @@
                },
                {
                    "No":  85,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -9179,6 +9340,7 @@
                },
                {
                    "No":  86,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "과장",
@@ -9205,6 +9367,7 @@
                },
                {
                    "No":  87,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "이사",
@@ -9231,6 +9394,7 @@
                },
                {
                    "No":  88,
+                   "Job":  "AE",
                    "VAR":  "MAVEN",
                    "Office":  "경기",
                    "Title":  "부장",
@@ -9259,6 +9423,7 @@
     "MKTG":  [
                  {
                      "No":  1,
+                     "Job":  "MKTG",
                      "VAR":  "UBER",
                      "Office":  "서울",
                      "Title":  "사원",
@@ -9283,6 +9448,7 @@
                  },
                  {
                      "No":  2,
+                     "Job":  "MKTG",
                      "VAR":  "NODE",
                      "Office":  "서울",
                      "Title":  "과장",
@@ -9307,6 +9473,7 @@
                  },
                  {
                      "No":  3,
+                     "Job":  "MKTG",
                      "VAR":  "NODE",
                      "Office":  "서울",
                      "Title":  "대리",
@@ -9331,6 +9498,7 @@
                  },
                  {
                      "No":  4,
+                     "Job":  "MKTG",
                      "VAR":  "MAKE",
                      "Office":  "경기",
                      "Title":  "대리",
@@ -9355,6 +9523,7 @@
                  },
                  {
                      "No":  5,
+                     "Job":  "MKTG",
                      "VAR":  "MAKE",
                      "Office":  "경기",
                      "Title":  "팀장",
@@ -9379,6 +9548,7 @@
                  },
                  {
                      "No":  6,
+                     "Job":  "MKTG",
                      "VAR":  "MAKE",
                      "Office":  "경기",
                      "Title":  "팀장",
@@ -9403,6 +9573,7 @@
                  },
                  {
                      "No":  7,
+                     "Job":  "MKTG",
                      "VAR":  "SOLKO",
                      "Office":  "경기",
                      "Title":  "과장",
@@ -9427,6 +9598,7 @@
                  },
                  {
                      "No":  8,
+                     "Job":  "MKTG",
                      "VAR":  "SOLKO",
                      "Office":  "경기",
                      "Title":  "주임",
@@ -9451,6 +9623,7 @@
                  },
                  {
                      "No":  9,
+                     "Job":  "MKTG",
                      "VAR":  "SOLKO",
                      "Office":  "경기",
                      "Title":  "주임",
@@ -9475,6 +9648,7 @@
                  },
                  {
                      "No":  10,
+                     "Job":  "MKTG",
                      "VAR":  "HYSOL",
                      "Office":  "서울",
                      "Title":  "과장",
@@ -9499,6 +9673,7 @@
                  },
                  {
                      "No":  11,
+                     "Job":  "MKTG",
                      "VAR":  "HYSOL",
                      "Office":  "서울",
                      "Title":  "사원",
@@ -9523,6 +9698,7 @@
                  },
                  {
                      "No":  12,
+                     "Job":  "MKTG",
                      "VAR":  "PRISM",
                      "Office":  "경기",
                      "Title":  "부장",
@@ -9547,6 +9723,7 @@
                  },
                  {
                      "No":  13,
+                     "Job":  "MKTG",
                      "VAR":  "KNSOL",
                      "Office":  "경기",
                      "Title":  "과장",
@@ -9571,6 +9748,7 @@
                  },
                  {
                      "No":  14,
+                     "Job":  "MKTG",
                      "VAR":  "WEBS",
                      "Office":  "서울",
                      "Title":  "마케터",
@@ -9595,6 +9773,7 @@
                  },
                  {
                      "No":  15,
+                     "Job":  "MKTG",
                      "VAR":  "WEBS",
                      "Office":  "서울",
                      "Title":  "주임",
@@ -9619,6 +9798,7 @@
                  },
                  {
                      "No":  16,
+                     "Job":  "MKTG",
                      "VAR":  "TEK",
                      "Office":  "서울",
                      "Title":  "대리",
@@ -9643,6 +9823,7 @@
                  },
                  {
                      "No":  17,
+                     "Job":  "MKTG",
                      "VAR":  "MAVEN",
                      "Office":  "경기",
                      "Title":  "과장",
@@ -9669,6 +9850,7 @@
     "ADMIN":  [
                   {
                       "No":  1,
+                      "Job":  "ADMIN",
                       "VAR":  "UBER",
                       "Office":  "서울",
                       "Title":  "부장",
@@ -9690,6 +9872,7 @@
                   },
                   {
                       "No":  2,
+                      "Job":  "ADMIN",
                       "VAR":  "UBER",
                       "Office":  "서울",
                       "Title":  "대리",
@@ -9711,6 +9894,7 @@
                   },
                   {
                       "No":  3,
+                      "Job":  "ADMIN",
                       "VAR":  "UBER",
                       "Office":  "서울",
                       "Title":  "대리",
@@ -9732,6 +9916,7 @@
                   },
                   {
                       "No":  4,
+                      "Job":  "ADMIN",
                       "VAR":  "UBER",
                       "Office":  "서울",
                       "Title":  "이사",
@@ -9753,6 +9938,7 @@
                   },
                   {
                       "No":  5,
+                      "Job":  "ADMIN",
                       "VAR":  "NODE",
                       "Office":  "서울",
                       "Title":  "실장",
@@ -9774,6 +9960,7 @@
                   },
                   {
                       "No":  6,
+                      "Job":  "ADMIN",
                       "VAR":  "NODE",
                       "Office":  "서울",
                       "Title":  "과장",
@@ -9795,6 +9982,7 @@
                   },
                   {
                       "No":  7,
+                      "Job":  "ADMIN",
                       "VAR":  "SOLKO",
                       "Office":  "경기",
                       "Title":  "과장",
@@ -9816,6 +10004,7 @@
                   },
                   {
                       "No":  8,
+                      "Job":  "ADMIN",
                       "VAR":  "PRISM",
                       "Office":  "경기",
                       "Title":  "이사",
@@ -9837,6 +10026,7 @@
                   },
                   {
                       "No":  9,
+                      "Job":  "ADMIN",
                       "VAR":  "TEK",
                       "Office":  "서울",
                       "Title":  "이사",
@@ -9858,6 +10048,7 @@
                   },
                   {
                       "No":  10,
+                      "Job":  "ADMIN",
                       "VAR":  "HANA",
                       "Office":  "서울",
                       "Title":  "사원",
@@ -9879,6 +10070,7 @@
                   },
                   {
                       "No":  11,
+                      "Job":  "ADMIN",
                       "VAR":  "MAVEN",
                       "Office":  "경기",
                       "Title":  "과장",
@@ -9900,6 +10092,7 @@
                   },
                   {
                       "No":  12,
+                      "Job":  "ADMIN",
                       "VAR":  "MAVEN",
                       "Office":  "경기",
                       "Title":  "대리",
@@ -9923,6 +10116,7 @@
     "ETC":  [
                 {
                     "No":  1,
+                    "Job":  "ETC",
                     "VAR":  "HYSOL",
                     "Office":  "서울",
                     "Title":  "대표",
@@ -9940,6 +10134,7 @@
                 },
                 {
                     "No":  2,
+                    "Job":  "ETC",
                     "VAR":  "KNSOL",
                     "Office":  "경기",
                     "Title":  "대표",
@@ -9957,6 +10152,7 @@
                 },
                 {
                     "No":  3,
+                    "Job":  "ETC",
                     "VAR":  "MAKE",
                     "Office":  "경기",
                     "Title":  "대표",
@@ -9974,6 +10170,7 @@
                 },
                 {
                     "No":  4,
+                    "Job":  "ETC",
                     "VAR":  "MAVEN",
                     "Office":  "경기",
                     "Title":  "대표",
@@ -9991,6 +10188,7 @@
                 },
                 {
                     "No":  5,
+                    "Job":  "ETC",
                     "VAR":  "NODE",
                     "Office":  "서울",
                     "Title":  "대표",
@@ -10008,6 +10206,7 @@
                 },
                 {
                     "No":  6,
+                    "Job":  "ETC",
                     "VAR":  "PRISM",
                     "Office":  "경기",
                     "Title":  "대표",
@@ -10025,6 +10224,7 @@
                 },
                 {
                     "No":  7,
+                    "Job":  "ETC",
                     "VAR":  "SOLKO",
                     "Office":  "경기",
                     "Title":  "대표",
@@ -10042,6 +10242,7 @@
                 },
                 {
                     "No":  8,
+                    "Job":  "ETC",
                     "VAR":  "SYSTEMS",
                     "Office":  "서울",
                     "Title":  "대표",
@@ -10059,6 +10260,7 @@
                 },
                 {
                     "No":  9,
+                    "Job":  "ETC",
                     "VAR":  "UBER",
                     "Office":  "서울",
                     "Title":  "대표",
@@ -10076,6 +10278,7 @@
                 },
                 {
                     "No":  10,
+                    "Job":  "ETC",
                     "VAR":  "WEBS",
                     "Office":  "서울",
                     "Title":  "대표",
@@ -10095,6 +10298,7 @@
     "Ex":  [
                {
                    "No":  1,
+                   "Job":  "Ex",
                    "VAR":  "WEBS",
                    "Office":  "서울",
                    "Title":  "부장",
@@ -10109,6 +10313,7 @@
                },
                {
                    "No":  2,
+                   "Job":  "Ex",
                    "VAR":  "HANA",
                    "Office":  "부산",
                    "Title":  "차장",
