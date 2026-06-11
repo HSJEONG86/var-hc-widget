@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>VAR HC Management Viewer</title>
-  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 
   <style>
     body {
@@ -23,16 +22,38 @@
       margin: 12px 0;
     }
 
-    input, select {
+    input, select, button {
       padding: 6px;
       border: 1px solid #ccc;
       border-radius: 4px;
+      background: white;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .count {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+
+    .status {
+      margin: 8px 0;
+      color: #666;
+    }
+
+    .table-wrap {
+      max-height: 650px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      margin-top: 8px;
     }
 
     table {
       border-collapse: collapse;
       width: 100%;
-      margin-top: 12px;
+      min-width: 1200px;
     }
 
     th, td {
@@ -49,30 +70,14 @@
       z-index: 1;
     }
 
-    .count {
-      margin-top: 8px;
-      font-weight: bold;
-    }
-
-    .table-wrap {
-      max-height: 650px;
-      overflow: auto;
-      border: 1px solid #ddd;
-      margin-top: 8px;
+    tr:nth-child(even) {
+      background: #fafafa;
     }
   </style>
 </head>
 
 <body>
   <h3>VAR HC Management</h3>
-
-  <div class="toolbar">
-    <input type="file" id="excelFile" accept=".xlsx,.xls" />
-
-    <select id="sheetSelect">
-      <option value="">Select Sheet</option>
-    </select>
-  </div>
 
   <div class="toolbar">
     <select id="varFilter">
@@ -92,77 +97,59 @@
       <option value="O">Certification: O</option>
       <option value="X">Certification: X</option>
     </select>
+
+    <button onclick="loadData()">Refresh</button>
   </div>
 
+  <div class="status" id="statusArea">Loading data...</div>
   <div class="count" id="countArea"></div>
+
   <div class="table-wrap">
     <div id="tableArea"></div>
   </div>
 
   <script>
-    let workbookGlobal = null;
     let originalData = [];
     let headers = [];
 
-    document.getElementById("excelFile").addEventListener("change", function(e) {
-      const file = e.target.files[0];
-      if (!file) return;
-
-      const reader = new FileReader();
-
-      reader.onload = function(event) {
-        const data = new Uint8Array(event.target.result);
-        workbookGlobal = XLSX.read(data, { type: "array" });
-
-        const sheetSelect = document.getElementById("sheetSelect");
-        sheetSelect.innerHTML = '<option value="">Select Sheet</option>';
-
-        workbookGlobal.SheetNames.forEach(sheetName => {
-          const option = document.createElement("option");
-          option.value = sheetName;
-          option.textContent = sheetName;
-          sheetSelect.appendChild(option);
-        });
-
-        if (workbookGlobal.SheetNames.length > 0) {
-          sheetSelect.value = workbookGlobal.SheetNames[0];
-          loadSheet(workbookGlobal.SheetNames[0]);
-        }
-      };
-
-      reader.readAsArrayBuffer(file);
-    });
-
-    document.getElementById("sheetSelect").addEventListener("change", function(e) {
-      if (e.target.value) {
-        loadSheet(e.target.value);
-      }
-    });
+    document.addEventListener("DOMContentLoaded", loadData);
 
     document.getElementById("varFilter").addEventListener("change", applyFilters);
     document.getElementById("nameFilter").addEventListener("input", applyFilters);
     document.getElementById("paeFilter").addEventListener("change", applyFilters);
     document.getElementById("certFilter").addEventListener("change", applyFilters);
 
-    function loadSheet(sheetName) {
-  if (!workbookGlobal || !sheetName) return;
+    function loadData() {
+      document.getElementById("statusArea").textContent = "Loading data...";
 
-  const worksheet = workbookGlobal.Sheets[sheetName];
+      fetch("data.json?ts=" + new Date().getTime())
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Failed to load data.json");
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (!Array.isArray(data) || data.length === 0) {
+            throw new Error("data.json is empty or invalid");
+          }
 
-  const rows = XLSX.utils.sheet_to_json(worksheet, {
-    header: 1,
-    defval: ""
-  });
+          headers = Object.keys(data[0]);
+          originalData = data.map(row => headers.map(h => row[h] ?? ""));
 
-  // 헤더가 3행이면 index는 2
-  const headerRowIndex = 2;
+          buildVarFilter();
+          applyFilters();
 
-  headers = rows[headerRowIndex] || [];
-  originalData = rows.slice(headerRowIndex + 1);
-
-  buildVarFilter();
-  applyFilters();
-}
+          document.getElementById("statusArea").textContent =
+            "Loaded successfully: " + new Date().toLocaleString();
+        })
+        .catch(error => {
+          document.getElementById("statusArea").textContent =
+            "Error: " + error.message;
+          document.getElementById("tableArea").innerHTML = "";
+          document.getElementById("countArea").textContent = "";
+        });
+    }
 
     function getColumnIndex(possibleNames) {
       return headers.findIndex(h =>
@@ -203,7 +190,7 @@
       const certValue = document.getElementById("certFilter").value;
 
       const varIndex = getColumnIndex(["VAR", "Reseller", "Company", "회사"]);
-      const nameIndex = getColumnIndex(["Name", "이름"]);
+      const nameIndex = getColumnIndex(["NAME", "Name", "이름"]);
       const paeIndex = getColumnIndex(["PAE", "pae_assign", "PAE 지정여부"]);
       const certIndex = getColumnIndex(["Certification", "certi_exist", "Certification 여부", "인증"]);
 
