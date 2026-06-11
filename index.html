@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>VAR HC Management Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 16px;
+      font-size: 14px;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 12px 0;
+    }
+
+    input, select {
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 12px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #f2f2f2;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    .count {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+
+    .table-wrap {
+      max-height: 650px;
+      overflow: auto;
+      border: 1px solid #ddd;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>VAR HC Management</h3>
+
+  <div class="toolbar">
+    <input type="file" id="excelFile" accept=".xlsx,.xls" />
+
+    <select id="sheetSelect">
+      <option value="">Select Sheet</option>
+    </select>
+  </div>
+
+  <div class="toolbar">
+    <select id="varFilter">
+      <option value="">All VAR</option>
+    </select>
+
+    <input type="text" id="nameFilter" placeholder="Search Name" />
+
+    <select id="paeFilter">
+      <option value="">All PAE</option>
+      <option value="O">PAE: O</option>
+      <option value="X">PAE: X</option>
+    </select>
+
+    <select id="certFilter">
+      <option value="">All Certification</option>
+      <option value="O">Certification: O</option>
+      <option value="X">Certification: X</option>
+    </select>
+  </div>
+
+  <div class="count" id="countArea"></div>
+  <div class="table-wrap">
+    <div id="tableArea"></div>
+  </div>
+
+  <script>
+    let workbookGlobal = null;
+    let originalData = [];
+    let headers = [];
+
+    document.getElementById("excelFile").addEventListener("change", function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const data = new Uint8Array(event.target.result);
+        workbookGlobal = XLSX.read(data, { type: "array" });
+
+        const sheetSelect = document.getElementById("sheetSelect");
+        sheetSelect.innerHTML = '<option value="">Select Sheet</option>';
+
+        workbookGlobal.SheetNames.forEach(sheetName => {
+          const option = document.createElement("option");
+          option.value = sheetName;
+          option.textContent = sheetName;
+          sheetSelect.appendChild(option);
+        });
+
+        if (workbookGlobal.SheetNames.length > 0) {
+          sheetSelect.value = workbookGlobal.SheetNames[0];
+          loadSheet(workbookGlobal.SheetNames[0]);
+        }
+      };
+
+      reader.readAsArrayBuffer(file);
+    });
+
+    document.getElementById("sheetSelect").addEventListener("change", function(e) {
+      if (e.target.value) {
+        loadSheet(e.target.value);
+      }
+    });
+
+    document.getElementById("varFilter").addEventListener("change", applyFilters);
+    document.getElementById("nameFilter").addEventListener("input", applyFilters);
+    document.getElementById("paeFilter").addEventListener("change", applyFilters);
+    document.getElementById("certFilter").addEventListener("change", applyFilters);
+
+    function loadSheet(sheetName) {
+  if (!workbookGlobal || !sheetName) return;
+
+  const worksheet = workbookGlobal.Sheets[sheetName];
+
+  const rows = XLSX.utils.sheet_to_json(worksheet, {
+    header: 1,
+    defval: ""
+  });
+
+  // 헤더가 3행이면 index는 2
+  const headerRowIndex = 2;
+
+  headers = rows[headerRowIndex] || [];
+  originalData = rows.slice(headerRowIndex + 1);
+
+  buildVarFilter();
+  applyFilters();
+}
+
+    function getColumnIndex(possibleNames) {
+      return headers.findIndex(h =>
+        possibleNames.some(name =>
+          String(h).toLowerCase().trim() === name.toLowerCase()
+        )
+      );
+    }
+
+    function buildVarFilter() {
+      const varIndex = getColumnIndex(["VAR", "Reseller", "Company", "회사"]);
+      const select = document.getElementById("varFilter");
+
+      select.innerHTML = '<option value="">All VAR</option>';
+
+      if (varIndex === -1) return;
+
+      const values = [
+        ...new Set(
+          originalData
+            .map(row => row[varIndex])
+            .filter(v => String(v).trim() !== "")
+        )
+      ];
+
+      values.sort().forEach(value => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function applyFilters() {
+      const varValue = document.getElementById("varFilter").value;
+      const nameValue = document.getElementById("nameFilter").value.toLowerCase();
+      const paeValue = document.getElementById("paeFilter").value;
+      const certValue = document.getElementById("certFilter").value;
+
+      const varIndex = getColumnIndex(["VAR", "Reseller", "Company", "회사"]);
+      const nameIndex = getColumnIndex(["Name", "이름"]);
+      const paeIndex = getColumnIndex(["PAE", "pae_assign", "PAE 지정여부"]);
+      const certIndex = getColumnIndex(["Certification", "certi_exist", "Certification 여부", "인증"]);
+
+      const filtered = originalData.filter(row => {
+        const matchVar =
+          varIndex === -1 || !varValue || String(row[varIndex]) === varValue;
+
+        const matchName =
+          nameIndex === -1 || !nameValue || String(row[nameIndex]).toLowerCase().includes(nameValue);
+
+        const matchPae =
+          paeIndex === -1 || !paeValue || String(row[paeIndex]).toUpperCase() === paeValue;
+
+        const matchCert =
+          certIndex === -1 || !certValue || String(row[certIndex]).toUpperCase() === certValue;
+
+        return matchVar && matchName && matchPae && matchCert;
+      });
+
+      renderTable(filtered);
+    }
+
+    function renderTable(data) {
+      let html = "<table><thead><tr>";
+
+      headers.forEach(header => {
+        html += `<th>${escapeHtml(header)}</th>`;
+      });
+
+      html += "</tr></thead><tbody>";
+
+      data.forEach(row => {
+        html += "<tr>";
+        headers.forEach((_, index) => {
+          html += `<td>${escapeHtml(row[index] ?? "")}</td>`;
+        });
+        html += "</tr>";
+      });
+
+      html += "</tbody></table>";
+
+      document.getElementById("countArea").textContent = `Total: ${data.length}`;
+      document.getElementById("tableArea").innerHTML = html;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+  </script>
+</body>
+</html>
